@@ -1,0 +1,49 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7; /* Light gray background */
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff; /* White background for container */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for container */
+    text-align: center;
+}
+
+h1 {
+    color: #333; /* Dark gray color for headings */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50; /* Green color for buttons */
+    color: white; /* White text color for buttons */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 10px; /* Margin for buttons */
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green color on hover */
+}
+
+#output {
+    margin-top: 20px; /* Margin above the output */
+    padding: 10px; /* Padding for the output */
+    font-size: 16px; /* Font size for the output */
+    color: #333; /* Dark gray color for the output text */
+    background-color: #fff; /* White background for the output */
+    border: 1px solid #ccc; /* Border around the output */
+    border-radius: 5px; /* Border radius for the output */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Box shadow for the output */
+}
